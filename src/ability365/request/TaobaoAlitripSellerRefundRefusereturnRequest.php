@@ -1,6 +1,6 @@
 <?php
-namespace Topsdk\Topapi\Ability365\Request;
-use Topsdk\Topapi\TopUtil;
+namespace Requiem\Topsdk\Ability365\Request;
+use Requiem\Topsdk\TopUtil;
 
 class TaobaoAlitripSellerRefundRefusereturnRequest {
 

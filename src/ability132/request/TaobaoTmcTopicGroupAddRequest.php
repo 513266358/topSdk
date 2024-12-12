@@ -1,6 +1,6 @@
 <?php
-namespace Topsdk\Topapi\Ability132\Request;
-use Topsdk\Topapi\TopUtil;
+namespace Requiem\Topsdk\Ability132\Request;
+use Requiem\Topsdk\TopUtil;
 
 class TaobaoTmcTopicGroupAddRequest {
 

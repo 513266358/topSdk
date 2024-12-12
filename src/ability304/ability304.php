@@ -1,14 +1,14 @@
 <?php
-namespace Topsdk\Topapi\Ability304;
+namespace Requiem\Topsdk\Ability304;
 
-use Topsdk\Topapi\TopApiClient;
-use Topsdk\Topapi\Ability304\Request\TaobaoFilesGetRequest;
-use Topsdk\Topapi\Ability304\Request\TaobaoTopAuthTokenRefreshRequest;
-use Topsdk\Topapi\Ability304\Request\TaobaoOpenuidGetRequest;
-use Topsdk\Topapi\Ability304\Request\TaobaoOpenuidGetBytradeRequest;
-use Topsdk\Topapi\Ability304\Request\TaobaoTopSecretGetRequest;
-use Topsdk\Topapi\Ability304\Request\TaobaoOpenuidGetBymixnickRequest;
-use Topsdk\Topapi\Ability304\Request\TaobaoTopSdkFeedbackUploadRequest;
+use Requiem\Topsdk\TopApiClient;
+use Requiem\Topsdk\Ability304\Request\TaobaoFilesGetRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoTopAuthTokenRefreshRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoOpenuidGetRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoOpenuidGetBytradeRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoTopSecretGetRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoOpenuidGetBymixnickRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoTopSdkFeedbackUploadRequest;
 
 class Ability304 {
 

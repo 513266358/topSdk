@@ -1,7 +1,7 @@
 <?php
-namespace Topsdk\Topapi\Ability365\Request;
-use Topsdk\Topapi\TopUtil;
-use Topsdk\Topapi\Ability365\Domain\TaobaoAlitripSellerOrderConfirmTripConfirmOrderParam;
+namespace Requiem\Topsdk\Ability365\Request;
+use Requiem\Topsdk\TopUtil;
+use Requiem\Topsdk\Ability365\Domain\TaobaoAlitripSellerOrderConfirmTripConfirmOrderParam;
 
 class TaobaoAlitripSellerOrderConfirmRequest {
 

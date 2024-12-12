@@ -1,6 +1,6 @@
 <?php
-namespace Topsdk\Topapi\Ability304\Request;
-use Topsdk\Topapi\TopUtil;
+namespace Requiem\Topsdk\Ability304\Request;
+use Requiem\Topsdk\TopUtil;
 
 class TaobaoTopAuthTokenRefreshRequest {
 

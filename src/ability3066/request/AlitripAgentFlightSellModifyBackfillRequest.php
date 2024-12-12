@@ -1,7 +1,7 @@
 <?php
-namespace Topsdk\Topapi\Ability3066\Request;
-use Topsdk\Topapi\TopUtil;
-use Topsdk\Topapi\Ability3066\Domain\AlitripAgentFlightSellModifyBackfillModifyBackFillRequestDto;
+namespace Requiem\Topsdk\Ability3066\Request;
+use Requiem\Topsdk\TopUtil;
+use Requiem\Topsdk\Ability3066\Domain\AlitripAgentFlightSellModifyBackfillModifyBackFillRequestDto;
 
 class AlitripAgentFlightSellModifyBackfillRequest {
 

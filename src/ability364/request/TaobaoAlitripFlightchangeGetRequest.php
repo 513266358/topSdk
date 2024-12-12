@@ -1,7 +1,7 @@
 <?php
-namespace Topsdk\Topapi\Ability364\Request;
-use Topsdk\Topapi\TopUtil;
-use Topsdk\Topapi\Ability364\Domain\TaobaoAlitripFlightchangeGetFlightChangeDataQueryOption;
+namespace Requiem\Topsdk\Ability364\Request;
+use Requiem\Topsdk\TopUtil;
+use Requiem\Topsdk\Ability364\Domain\TaobaoAlitripFlightchangeGetFlightChangeDataQueryOption;
 
 class TaobaoAlitripFlightchangeGetRequest {
 

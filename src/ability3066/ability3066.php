@@ -1,19 +1,19 @@
 <?php
-namespace Topsdk\Topapi\Ability3066;
+namespace Requiem\Topsdk\Ability3066;
 
-use Topsdk\Topapi\TopApiClient;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellRefundListRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellModifyBackfillRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellModifyListRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellTicketingListRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellTicketingDetailRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellTicketingIssueRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellModifyRefuseRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellRefundDetailRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellModifyApproveRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellModifyDetailRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellRefundRefuseRequest;
-use Topsdk\Topapi\Ability3066\Request\AlitripAgentFlightSellRefundApproveRequest;
+use Requiem\Topsdk\TopApiClient;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellRefundListRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellModifyBackfillRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellModifyListRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellTicketingListRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellTicketingDetailRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellTicketingIssueRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellModifyRefuseRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellRefundDetailRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellModifyApproveRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellModifyDetailRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellRefundRefuseRequest;
+use Requiem\Topsdk\Ability3066\Request\AlitripAgentFlightSellRefundApproveRequest;
 
 class Ability3066 {
 

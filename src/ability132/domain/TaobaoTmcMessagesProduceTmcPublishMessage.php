@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi\Ability132\Domain;
+namespace Requiem\Topsdk\Ability132\Domain;
 
 class TaobaoTmcMessagesProduceTmcPublishMessage {
 

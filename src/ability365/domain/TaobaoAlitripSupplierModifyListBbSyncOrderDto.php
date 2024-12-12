@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi\Ability365\Domain;
+namespace Requiem\Topsdk\Ability365\Domain;
 
 class TaobaoAlitripSupplierModifyListBbSyncOrderDto {
 

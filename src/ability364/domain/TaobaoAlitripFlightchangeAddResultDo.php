@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi\Ability364\Domain;
+namespace Requiem\Topsdk\Ability364\Domain;
 
 class TaobaoAlitripFlightchangeAddResultDo {
 

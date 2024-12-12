@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi\Ability304\Domain;
+namespace Requiem\Topsdk\Ability304\Domain;
 
 class TaobaoFilesGetTopDownloadRecordDo {
 

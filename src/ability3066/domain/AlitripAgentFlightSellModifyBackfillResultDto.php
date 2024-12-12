@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi\Ability3066\Domain;
+namespace Requiem\Topsdk\Ability3066\Domain;
 
 class AlitripAgentFlightSellModifyBackfillResultDto {
 

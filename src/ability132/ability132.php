@@ -1,13 +1,13 @@
 <?php
-namespace Topsdk\Topapi\Ability132;
+namespace Requiem\Topsdk\Ability132;
 
-use Topsdk\Topapi\TopApiClient;
-use Topsdk\Topapi\Ability132\Request\TaobaoTmcTopicGroupDeleteRequest;
-use Topsdk\Topapi\Ability132\Request\TaobaoTmcTopicGroupAddRequest;
-use Topsdk\Topapi\Ability132\Request\TaobaoTmcMessagesProduceRequest;
-use Topsdk\Topapi\Ability132\Request\TaobaoTmcGroupsGetRequest;
-use Topsdk\Topapi\Ability132\Request\TaobaoTmcMessagesConsumeRequest;
-use Topsdk\Topapi\Ability132\Request\TaobaoTmcAuthGetRequest;
+use Requiem\Topsdk\TopApiClient;
+use Requiem\Topsdk\Ability132\Request\TaobaoTmcTopicGroupDeleteRequest;
+use Requiem\Topsdk\Ability132\Request\TaobaoTmcTopicGroupAddRequest;
+use Requiem\Topsdk\Ability132\Request\TaobaoTmcMessagesProduceRequest;
+use Requiem\Topsdk\Ability132\Request\TaobaoTmcGroupsGetRequest;
+use Requiem\Topsdk\Ability132\Request\TaobaoTmcMessagesConsumeRequest;
+use Requiem\Topsdk\Ability132\Request\TaobaoTmcAuthGetRequest;
 
 class Ability132 {
 

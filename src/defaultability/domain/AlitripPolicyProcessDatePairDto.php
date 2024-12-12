@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi\Defaultability\Domain;
+namespace Requiem\Topsdk\Defaultability\Domain;
 
 class AlitripPolicyProcessDatePairDto {
 

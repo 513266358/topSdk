@@ -1,9 +1,9 @@
 <?php
-namespace Topsdk\Topapi\Ability364;
+namespace Requiem\Topsdk\Ability364;
 
-use Topsdk\Topapi\TopApiClient;
-use Topsdk\Topapi\Ability364\Request\TaobaoAlitripFlightchangeAddRequest;
-use Topsdk\Topapi\Ability364\Request\TaobaoAlitripFlightchangeGetRequest;
+use Requiem\Topsdk\TopApiClient;
+use Requiem\Topsdk\Ability364\Request\TaobaoAlitripFlightchangeAddRequest;
+use Requiem\Topsdk\Ability364\Request\TaobaoAlitripFlightchangeGetRequest;
 
 class Ability364 {
 

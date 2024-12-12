@@ -1,6 +1,6 @@
 <?php
-namespace Topsdk\Topapi\Ability3066\Request;
-use Topsdk\Topapi\TopUtil;
+namespace Requiem\Topsdk\Ability3066\Request;
+use Requiem\Topsdk\TopUtil;
 
 class AlitripAgentFlightSellTicketingDetailRequest {
 
