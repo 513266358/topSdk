@@ -1,8 +1,8 @@
 <?php
-namespace Topsdk\Topapi;
+namespace Requiem\Topsdk;
 
 use Exception;
-use topsdk\topapi\TopUtil;
+use Requiem\Topsdk\TopUtil;
 
 class TopApiClient
 {

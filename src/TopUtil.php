@@ -1,5 +1,5 @@
 <?php
-namespace Topsdk\Topapi;
+namespace Requiem\Topsdk;
 class TopUtil {
 
     /**

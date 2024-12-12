@@ -1,15 +1,15 @@
 <?php
-namespace Topsdk\Topapi\Defaultability;
+namespace Requiem\Topsdk\Defaultability;
 
-use Topsdk\Topapi\TopApiClient;
-use Topsdk\Topapi\Defaultability\Request\AlitripPolicyProcessRequest;
-use Topsdk\Topapi\Defaultability\Request\AlitripPolicyRuleUploadRequest;
-use Topsdk\Topapi\Defaultability\Request\TaobaoKfcKeywordSearchRequest;
-use Topsdk\Topapi\Defaultability\Request\AlitripPolicyNormalUploadRequest;
-use Topsdk\Topapi\Defaultability\Request\AlitripPolicyDomfareCompareRequest;
-use Topsdk\Topapi\Defaultability\Request\AlitripPolicySpecialUploadRequest;
-use Topsdk\Topapi\Defaultability\Request\TaobaoTmcUserGetRequest;
-use Topsdk\Topapi\Defaultability\Request\AlitripPolicyDomfareFlowdataRequest;
+use Requiem\Topsdk\TopApiClient;
+use Requiem\Topsdk\Defaultability\Request\AlitripPolicyProcessRequest;
+use Requiem\Topsdk\Defaultability\Request\AlitripPolicyRuleUploadRequest;
+use Requiem\Topsdk\Defaultability\Request\TaobaoKfcKeywordSearchRequest;
+use Requiem\Topsdk\Defaultability\Request\AlitripPolicyNormalUploadRequest;
+use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareCompareRequest;
+use Requiem\Topsdk\Defaultability\Request\AlitripPolicySpecialUploadRequest;
+use Requiem\Topsdk\Defaultability\Request\TaobaoTmcUserGetRequest;
+use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareFlowdataRequest;
 
 class Defaultability {
 

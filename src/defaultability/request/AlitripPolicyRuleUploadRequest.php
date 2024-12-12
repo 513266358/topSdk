@@ -1,7 +1,7 @@
 <?php
-namespace Topsdk\Topapi\Defaultability\Request;
-use Topsdk\Topapi\TopUtil;
-use Topsdk\Topapi\Defaultability\Domain\AlitripPolicyRuleUploadPolicyCreateRequestDto;
+namespace Requiem\Topsdk\Defaultability\Request;
+use Requiem\Topsdk\TopUtil;
+use Requiem\Topsdk\Defaultability\Domain\AlitripPolicyRuleUploadPolicyCreateRequestDto;
 
 class AlitripPolicyRuleUploadRequest {
 

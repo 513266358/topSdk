@@ -1,6 +1,6 @@
 <?php
-namespace Topsdk\Topapi\Defaultability\Request;
-use Topsdk\Topapi\TopUtil;
+namespace Requiem\Topsdk\Defaultability\Request;
+use Requiem\Topsdk\TopUtil;
 
 class TaobaoKfcKeywordSearchRequest {
 

@@ -1,11 +1,16 @@
 {
-    "name": "topsdk/topapi",
-    "description": "topapi php sdk",
-    "type": "library",
+    "name": "requiem/topsdk",
+    "description": "66定制topSdk",
     "autoload": {
         "psr-4": {
-            "Topsdk\\Topapi\\": "src/"
+            "Requiem\\Topsdk\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "lsz",
+            "email": "513266358@qq.com"
+        }
+    ],
     "require": {}
 }
