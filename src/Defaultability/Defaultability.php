@@ -1,7 +1,7 @@
 <?php
 namespace Requiem\Topsdk\Defaultability;
 
-use Requiem\Requiem\TopApiClient;
+use Requiem\Topsdk\TopApiClient;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyProcessRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyRuleUploadRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoKfcKeywordSearchRequest;
