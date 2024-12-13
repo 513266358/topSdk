@@ -9,6 +9,7 @@ use Requiem\Topsdk\Defaultability\Request\AlitripPolicyNormalUploadRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareCompareRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicySpecialUploadRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoTmcUserGetRequest;
+use Requiem\Topsdk\Defaultability\Request\TaobaoOpentradeCustomizationFileUpdateRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareFlowdataRequest;
 
 class Defaultability {
@@ -67,5 +68,12 @@ class Defaultability {
     **/
     public function alitripPolicyDomfareFlowdata(AlitripPolicyDomfareFlowdataRequest $request,string $session) {
         return $this->client->executeWithSession("alitrip.policy.domfare.flowdata", $request->toMap(), $request->toFileParamMap(), $session);
+    }
+
+    /**
+        更新文件地址
+    **/
+    public function taobaoOpentradeCustomizationFileUpdate(TaobaoOpentradeCustomizationFileUpdateRequest $request,string $session) {
+        return $this->client->executeWithSession("taobao.opentrade.customization.file.update", $request->toMap(), $request->toFileParamMap(), $session);
     }
 }
