@@ -10,6 +10,7 @@ use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareCompareRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicySpecialUploadRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoTmcUserGetRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoOpentradeCustomizationFileUpdateRequest;
+use Requiem\Topsdk\Defaultability\Request\TaobaoOpentradeCustomizationOssGetRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareFlowdataRequest;
 
 class Defaultability {
@@ -75,5 +76,12 @@ class Defaultability {
     **/
     public function taobaoOpentradeCustomizationFileUpdate(TaobaoOpentradeCustomizationFileUpdateRequest $request,string $session) {
         return $this->client->executeWithSession("taobao.opentrade.customization.file.update", $request->toMap(), $request->toFileParamMap(), $session);
+    }
+
+    /**
+        获取文件地址
+    **/
+    public function taobaoOpentradeCustomizationOssGet(TaobaoOpentradeCustomizationOssGetRequest $request,string $session) {
+        return $this->client->executeWithSession("taobao.opentrade.customization.oss.get", $request->toMap(), $request->toFileParamMap(), $session);
     }
 }

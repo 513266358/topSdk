@@ -3,6 +3,7 @@ namespace Requiem\Topsdk\Ability304;
 
 use Requiem\Topsdk\TopApiClient;
 use Requiem\Topsdk\Ability304\Request\TaobaoFilesGetRequest;
+use Requiem\Topsdk\Ability304\Request\TaobaoTopAuthTokenCreateRequest;
 use Requiem\Topsdk\Ability304\Request\TaobaoTopAuthTokenRefreshRequest;
 use Requiem\Topsdk\Ability304\Request\TaobaoOpenuidGetRequest;
 use Requiem\Topsdk\Ability304\Request\TaobaoOpenuidGetBytradeRequest;
@@ -61,4 +62,12 @@ class Ability304 {
     public function taobaoTopSdkFeedbackUpload(TaobaoTopSdkFeedbackUploadRequest $request) {
         return $this->client->execute("taobao.top.sdk.feedback.upload", $request->toMap(), $request->toFileParamMap());
     }
+
+    /**
+        刷新Access Token
+    **/
+    public function taobaoTopAuthTokenCreate(TaobaoTopAuthTokenCreateRequest $request) {
+        return $this->client->execute("taobao.top.auth.token.create", $request->toMap(), $request->toFileParamMap());
+    }
+
 }
