@@ -49,11 +49,15 @@ class TaobaoOpentradeCustomizationOssGetRequest
         // return $requestParam;
         $requestParam = array();
         if (!TopUtil::checkEmpty($this->miniappId)) {
-            $requestParam["miniappId"] = TopUtil::convertBasic($this->miniappId);
+            $requestParam["miniapp_id"] = TopUtil::convertBasic($this->miniappId);
         }
 
         if (!TopUtil::checkEmpty($this->buyerOpenId)) {
-            $requestParam["buyerOpenId"] = TopUtil::convertBasic($this->buyerOpenId);
+            $requestParam["buyer_open_id"] = TopUtil::convertBasic($this->buyerOpenId);
+        }
+
+        if (!TopUtil::checkEmpty($this->fileName)) {
+            $requestParam["file_name"] = TopUtil::convertBasic($this->fileName);
         }
 
         return $requestParam;
