@@ -224,9 +224,6 @@ class TopApiClient
             $requestUrl .= "$sysParamKey=" . urlencode($sysParamValue) . "&";
         }
         $requestUrl = substr($requestUrl, 0, -1);
-        echo $requestUrl;
-        var_dump($sysParams);
-        var_dump($apiParams);
 //		$fileFields = array();
 //		foreach ($apiParams as $key => $value) {
 //            if(is_array($value) && array_key_exists('type',$value) && array_key_exists('content',$value) ){
