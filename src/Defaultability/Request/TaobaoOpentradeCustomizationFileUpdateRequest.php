@@ -25,7 +25,7 @@ class TaobaoOpentradeCustomizationFileUpdateRequest
     public function toMap() : array{
         $requestParam = array();
         if (!TopUtil::checkEmpty($this->fileUpdateList)) {
-            $requestParam["fileUpdateList"] = TopUtil::convertStructList($this->fileUpdateList);
+            $requestParam["file_update_list"] = TopUtil::convertStructList($this->fileUpdateList);
         }
 
         return $requestParam;
