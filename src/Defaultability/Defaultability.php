@@ -9,6 +9,7 @@ use Requiem\Topsdk\Defaultability\Request\AlitripPolicyNormalUploadRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareCompareRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicySpecialUploadRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoTmcUserGetRequest;
+use Requiem\Topsdk\Defaultability\Request\TaobaoOpentradeCustomizationFileGetRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoOpentradeCustomizationFileUpdateRequest;
 use Requiem\Topsdk\Defaultability\Request\TaobaoOpentradeCustomizationOssGetRequest;
 use Requiem\Topsdk\Defaultability\Request\AlitripPolicyDomfareFlowdataRequest;
@@ -83,5 +84,10 @@ class Defaultability {
     **/
     public function taobaoOpentradeCustomizationOssGet(TaobaoOpentradeCustomizationOssGetRequest $request,string $session) {
         return $this->client->executeWithSession("taobao.opentrade.customization.oss.get", $request->toMap(), $request->toFileParamMap(), $session);
+    }
+
+
+    public function taobaoOpentradeCustomizationFileGet(TaobaoOpentradeCustomizationFileGetRequest $request,string $session) {
+        return $this->client->executeWithSession("taobao.opentrade.customization.file.get", $request->toMap(), $request->toFileParamMap(), $session);
     }
 }
